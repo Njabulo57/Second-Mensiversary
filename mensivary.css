@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+section{
+    height: 100vh;
+    background: url('mama\ n\ baba.jpg') fixed no-repeat center;
+    background-size: cover;
+}
+.hero-text{
+    padding-top: 2rem;
+}
+
+
+.header-text{
+    text-align: center;
+    font-family: "WindSong";
+}
+
+.special-text{
+    position: fixed;
+    bottom: 5rem;
+    padding: 1rem 6rem 1rem 1rem;
+}
+
+.my-words{
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Cormorant SC";
+}
+.line{
+    position: fixed;
+    bottom: 5rem;
+    left: 1rem;
+    border: 2px solid white;
+    width: 15%;
+}
+
+.book-button{
+    position: fixed;
+    bottom: 1rem;
+    padding: 0.5rem;
+    left: 1rem;
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+}
+
+.button{
+    width: 200px;
+    height: 30px;
+    /*background-color: transparent;*/
+    /*border: 1px solid white;*/
+    font-family: "Comorant SC";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.book-button:hover{
+    background-color: white;
+    transition-delay: 0.1s;
+    color: black;
+}
